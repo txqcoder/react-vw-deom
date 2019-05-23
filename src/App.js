@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import { Button } from 'antd-mobile';
 
 function App() {
   return (
     <div className="App">
-      vw适配
+      <Button type="primary">primary</Button>
     </div>
   );
 }
